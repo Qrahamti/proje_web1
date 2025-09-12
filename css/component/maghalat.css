@@ -1,0 +1,106 @@
+.maghalat {
+  width: 100%;
+  height: 450px;
+
+  .maghalat_head {
+    width: 100%;
+    
+    padding-top: 40px;
+    font-family: shabnam, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 800px;
+    h4 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #757575;
+    }
+    h6 {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #757575;
+    }
+  }
+  .maghalat_body {
+    width: 100%;
+    height: 380px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    align-items: center;
+
+    .swiper {
+      width: 1200px;
+      height: 230px;
+
+      padding: 0 10px;
+      border-radius: 10px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 2px 0px;
+    }
+
+    .swiper-slide {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        color: #0a5abd;
+      }
+      .image_explain {
+        width: 282px;
+        height: 100%;
+
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+
+        box-shadow: 1px 1px 10px 2px rgb(207, 205, 205);
+        .expalin_swiper-slide {
+          width: 90%;
+          height: 100%;
+          padding-top: 30px;
+
+          font-size: 13px;
+          font-family: shabnam;
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 280px;
+
+      border-radius: 10px;
+    }
+
+    .buttons {
+      padding-top: 20px;
+      width: 5px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .buttons button {
+      padding: 5px 5px;
+      border-radius: 50%;
+      border: none;
+      background: #ddd;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .buttons button.active {
+      background: black;
+      color: white;
+    }
+  }
+}

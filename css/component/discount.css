@@ -1,0 +1,468 @@
+.discount {
+  width: 100%;
+  height: 920px;
+
+  padding-top: 1px;
+  .dicount_main {
+    width: 88%;
+    height: 900px;
+    background-color: #e2e2e2;
+    margin: 10px auto;
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    .discount_main_title {
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      font-family: shabnam;
+      align-items: center;
+      gap: 33px;
+
+      h1 {
+        display: flex;
+        align-items: center;
+        color: #757575;
+        font-size: 32px;
+        padding-left: 570px;
+        column-gap: 10px;
+      }
+      span {
+        color: rgb(188, 20, 54);
+        font-size: 40px;
+        padding-left: 4px;
+        padding-top: 10px;
+      }
+      .timer {
+        font-family: shabnam2, sans-serif;
+        font-size: 20px;
+        color: #757575;
+      }
+    }
+
+    .discount_main_items {
+      width: 90%;
+      height: 750px;
+      padding: 10px;
+      padding-top: 30px;
+      background-color: #e2e2e2;
+      display: flex;
+      gap: 25px;
+      align-items: center;
+      flex-flow: column wrap;
+      padding-left: 70px;
+
+      .discount_main_items3 {
+        width: 360px;
+        height: 776px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        align-items: center;
+        border-radius: 10px;
+        .axeright {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+          &:hover {
+            box-shadow: 0 0 10px #aeaeae;
+          }
+          .img1 {
+            img {
+              width: 330px;
+              height: 365px;
+              border-radius: 10px;
+            }
+          }
+          .explain11 {
+            .explain1 {
+              width: 330px;
+              height: 300px;
+              padding-right: 9px;
+              font-family: shabnam2, sans-serif;
+              padding-top: 15px;
+              color: rgba(0, 0, 0, 0.87);
+              line-height: 30px;
+            }
+            .off1 {
+              width: 330px;
+              height: 30px;
+
+              font-family: shabnam2;
+              align-items: center;
+              display: flex;
+              justify-content: space-between;
+              color: rgb(180, 18, 50);
+              span {
+                color: #595151;
+                font-family: shabnam2, sans-serif;
+                padding-right: 10px;
+              }
+            }
+            .price1 {
+              width: 330px;
+              height: 35px;
+
+              align-items: center;
+              justify-content: left;
+              display: flex;
+              font-family: shabnam2, sans-serif;
+              font-size: 1.25rem;
+              color: #0a5abd;
+
+              span {
+                font-size: 0.75rem;
+                color: rgba(0, 0, 0, 0.6);
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+        .axemiddle {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+          &:hover {
+            box-shadow: 0 0 10px #aeaeae;
+          }
+          .img2 {
+            img {
+              width: 330px;
+              height: 350px;
+              border-radius: 10px;
+            }
+          }
+          .explain22 {
+            .explain2 {
+              width: 330px;
+              height: 315px;
+              padding-right: 9px;
+              padding-top: 15px;
+              font-family: shabnam;
+              color: rgba(0, 0, 0, 0.87);
+              font-weight: 500;
+              line-height: 30px;
+            }
+            .off2 {
+              width: 330px;
+              height: 30px;
+              font-family: shabnam2;
+              align-items: center;
+              display: flex;
+              justify-content: left;
+              color: rgb(180, 18, 50);
+              span {
+                del {
+                  color: #595151;
+                  padding-left: 120px;
+                }
+              }
+            }
+            .price2 {
+              width: 330px;
+              height: 35px;
+
+              align-items: center;
+              justify-content: left;
+              display: flex;
+              font-family: shabnam2, sans-serif;
+              font-size: 1.25rem;
+              color: #0a5abd;
+              span {
+                font-size: 0.75rem;
+                color: rgba(0, 0, 0, 0.6);
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+        .axeleft1 {
+          width: 100%;
+          height: 100%;
+          background-color: #e2e2e2;
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          align-items: center;
+          border-radius: 10px;
+          gap: 11px;
+          .axe_left {
+            width: 360px;
+            height: 175px;
+            background-color: #fff;
+            margin: 3px;
+            border-radius: 10px;
+
+            .axe_left_1 {
+              width: 100%;
+              height: 100%;
+              justify-content: center;
+              display: flex;
+              flex-flow: column wrap;
+              border-radius: 10px;
+
+              &:hover {
+                box-shadow: 0 0 10px #aeaeae;
+              }
+
+              img {
+                width: 160px;
+                height: 160px;
+              }
+              .explain_left_1 {
+                width: 55%;
+                height: 100%;
+
+                .axe_left_1_name {
+                  width: 100%;
+                  height: 80px;
+                  font-family: shabnam;
+                  font-size: 14px;
+                  line-height: 1.75rem;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+                .axe_left_1_off {
+                  width: 100%;
+                  height: 60px;
+                  font-family: shabnam2, sans-serif;
+                  line-height: 20px;
+                  span {
+                    color: #db2725;
+                    margin-left: 10px;
+                    font-size: 14px;
+                    span {
+                      margin-right: 65px;
+                    }
+                    del {
+                      color: #595151;
+                    }
+                  }
+                }
+                .axe_left_1_price {
+                  width: 100%;
+                  height: 27%;
+                  margin-right: 80px;
+                  font-family: shabnam2, sans-serif;
+                  color: #0a5abd;
+                  font-size: 20px;
+                  span {
+                    font-size: 14px;
+                    color: #595151;
+                  }
+                }
+              }
+            }
+            .axe_left_2 {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              flex-flow: wrap;
+              justify-content: center;
+              align-items: center;
+              border-radius: 10px;
+              &:hover {
+                box-shadow: 0 0 10px #aeaeae;
+              }
+              img {
+                width: 160px;
+                height: 160px;
+              }
+              .explain_left_2 {
+                width: 55%;
+                height: 100%;
+                display: flex;
+                flex-flow: row wrap;
+
+                .axe_left_2_name {
+                  width: 100%;
+                  height: 95px;
+
+                  font-family: shabnam;
+                  font-size: 14px;
+                  line-height: 1.75rem;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+                .axe_left_2_off {
+                  width: 100%;
+                  height: 40px;
+
+                  align-items: flex-end;
+                  font-family: shabnam2, sans-serif;
+                  span {
+                    color: #db2725;
+                    margin-left: 10px;
+                    font-size: 14px;
+                    span {
+                      margin-right: 65px;
+                    }
+                    del {
+                      color: #595151;
+                    }
+                  }
+                }
+                .axe_left_2_price {
+                  width: 100%;
+                  height: 40px;
+
+                  font-family: shabnam2, sans-serif;
+                  color: #0a5abd;
+                  font-size: 20px;
+                  justify-content: left;
+                  align-items: center;
+                  display: flex;
+                  gap: 4px;
+                  span {
+                    margin-left: 8px;
+                    color: #595151;
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+            .axe_left_3 {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              flex-flow: column wrap;
+              border-radius: 10px;
+              &:hover {
+                box-shadow: 0 0 10px #aeaeae;
+              }
+              img {
+                width: 160px;
+                height: 160px;
+              }
+              .explain_left_3 {
+                width: 197px;
+                height: 190px;
+
+                .axe_left_3_name {
+                  width: 100%;
+                  height: 80px;
+
+                  font-family: shabnam;
+                  font-size: 14px;
+                  line-height: 1.75rem;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+                .axe_left_3_off {
+                  width: 100%;
+                  height: 60px;
+
+                  font-family: shabnam2, sans-serif;
+                  line-height: 20px;
+                  span {
+                    color: #db2725;
+                    margin-left: 10px;
+                    font-size: 14px;
+                    span {
+                      margin-right: 65px;
+                    }
+                    del {
+                      color: #595151;
+                    }
+                  }
+                }
+                .axe_left_3_price {
+                  width: 100%;
+                  height: 40px;
+
+                  font-family: shabnam2, sans-serif;
+                  color: #0a5abd;
+                  font-size: 20px;
+                  justify-content: left;
+                  align-items: center;
+                  display: flex;
+                  gap: 4px;
+                  span {
+                    margin-left: 8px;
+                    color: #595151;
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+
+            .axe_left_4 {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              flex-flow: column wrap;
+              border-radius: 10px;
+              &:hover {
+                box-shadow: 0 0 10px #aeaeae;
+              }
+              img {
+                width: 160px;
+                height: 160px;
+              }
+              .explain_left_4 {
+                width: 197px;
+                height: 190px;
+
+                .axe_left_4_name {
+                  width: 100%;
+                  height: 80px;
+
+                  font-family: shabnam;
+                  font-size: 14px;
+                  line-height: 1.75rem;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+                .axe_left_4_off {
+                  width: 100%;
+                  height: 60px;
+
+                  font-family: shabnam2, sans-serif;
+                  line-height: 20px;
+                  span {
+                    color: #db2725;
+                    margin-left: 10px;
+                    font-size: 14px;
+                    span {
+                      margin-right: 65px;
+                    }
+                    del {
+                      color: #595151;
+                    }
+                  }
+                }
+                .axe_left_4_price {
+                  width: 100%;
+                  height: 40px;
+
+                  font-family: shabnam2, sans-serif;
+                  color: #0a5abd;
+                  font-size: 20px;
+                  justify-content: left;
+                  align-items: center;
+                  display: flex;
+                  gap: 4px;
+                  span {
+                    margin-left: 8px;
+                    color: #595151;
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

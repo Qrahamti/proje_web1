@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  .chat {
+    img {
+      width: 60px;
+    }
+    position: fixed;
+    z-index: 999;
+    bottom: 10px;
+    right: 5px;
+    &:hover {
+      scale: 1.5;
+    }
+  }
+}
+*.wrapper {
+  width: 100%;
+  background-color: aliceblue;
+}
+@font-face {
+  font-family: shabnam;
+  src: url(../fonts/Shabnam-Medium-FD.woff), url(../fonts/Shabnam-Bold-FD.woff),
+    url(../fonts/Shabnam-FD.woff);
+}
+
+@font-face {
+  font-family: shabnam2;
+  src: url(../fonts/Shabnam-FD.woff);
+}
+
+@font-face {
+  font-family: fontelo;
+  src: url(../fonts/fontello\ .woff2);
+}

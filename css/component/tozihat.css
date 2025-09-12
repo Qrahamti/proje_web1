@@ -1,0 +1,142 @@
+.tozihat {
+  width: 100%;
+  height: 330px;
+
+  .tozihat_head {
+    width: 100%;
+    height: 30%;
+    font-size: large;
+    font-family: shabnam;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+    font-weight: 700;
+    line-height: 70px;
+  }
+  .tozihat_foot {
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+    .moshaverh {
+      width: 22%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      img {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 0.5rem;
+      }
+
+      h4 {
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+        color: #757575;
+        font-family: shabnam, sans-serif;
+        text-align: center;
+      }
+      span {
+        text-align: center;
+        line-height: 1.75rem;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 0.875rem;
+        font-family: shabnam, sans-serif;
+      }
+    }
+    .gheymat {
+      width: 22%;
+      height: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      img {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 0.5rem;
+      }
+
+      h4 {
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+        color: #757575;
+        font-family: shabnam, sans-serif;
+        text-align: center;
+      }
+      span {
+        text-align: center;
+        line-height: 1.75rem;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 0.875rem;
+        font-family: shabnam, sans-serif;
+      }
+    }
+    .ersal {
+      width: 22%;
+      height: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+
+      img {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 0.5rem;
+      }
+
+      h4 {
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+        color: #757575;
+        font-family: shabnam, sans-serif;
+        text-align: center;
+      }
+      span {
+        text-align: center;
+        line-height: 1.75rem;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 0.875rem;
+        font-family: shabnam, sans-serif;
+      }
+    }
+    .emkan {
+      width: 22%;
+      height: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+
+      img {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 0.5rem;
+      }
+
+      h4 {
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+        color: #757575;
+        font-family: shabnam, sans-serif;
+        text-align: center;
+      }
+      span {
+        text-align: center;
+        line-height: 1.75rem;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 0.875rem;
+        font-family: shabnam, sans-serif;
+      }
+    }
+  }
+}

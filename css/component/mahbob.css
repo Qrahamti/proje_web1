@@ -1,0 +1,51 @@
+.mahbob {
+  width: 100%;
+  height: 270px;
+
+  h3 {
+    padding-right: 80px;
+    font-family: shabnam;
+    text-align: right;
+    color: #757575;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  .mahbob_pic {
+    width: 100%;
+    height: 100%;
+
+    .swiper {
+      width: 88%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      width: 200px;
+      height: 114px;
+      background-color: #fff;
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      box-shadow: 1px 1px 11px 1px rgba(0, 0, 0, 0.1);
+      transition: 300ms;
+      margin-top: 20px;
+      &:hover{
+       
+        transform:translatey(-5px);
+      }
+      
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 96px;
+      height: 96px;
+      object-fit: cover;
+    }
+  }
+}
