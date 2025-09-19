@@ -1,16 +1,18 @@
 .page_number {
-  width: 1345px;
-  height: fit-content;
+  width: 1340px;
+  height: 1132px;
   background-color: #eeeeee;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   justify-content: start;
-  padding: 0px 325px;
- 
+
+  position: relative;
 
   .numbers {
     width: 990px;
     height: 80px;
+    position: absolute;
+    left: 20px;
     background-color: #fff;
     margin-top: 1px;
     margin-left: 5px;
@@ -40,7 +42,12 @@
     }
   }
   .welcome {
-    width: 980px;
+    width: 985px;
+    height: fit-content;
+    position: absolute;
+    left: 20px;
+    top: 82px;
+    margin-right: 20px;
     height: fit-content;
     text-align: right;
     font-family: shabnam2, sans-serif;
@@ -88,10 +95,12 @@
   }
   .didgah_shoma {
     width: 990px;
-    height: 865px;
+    height: 855px;
+    position: absolute;
     background-color: #eeeeee;
     border-radius: 10px;
-    position: relative;
+    left: 20px;
+    top: 275px;
     display: flex;
     flex-flow: column;
     box-shadow: 0 0 10px 1 #333;
@@ -100,6 +109,7 @@
     .nazarat_kharidaran {
       width: 970px;
       height: 400px;
+      
       position: absolute;
       bottom: 100px;
       right: 5px;
@@ -130,28 +140,26 @@
       }
       .nazar_mardom {
         width: 100%;
-        height: fit-content;
-     
-        font-family: shabnam2,sans-serif;
+        font-family: shabnam2, sans-serif;
         line-height: 20px;
-        .name{
-          font-size:14px ;
+        .name {
+          font-size: 14px;
           font-weight: 600;
           color: #000;
           margin-right: 10px;
           padding-left: 10px;
-          &::before{
-            content: '\e90f';
+          &::before {
+            content: "\e90f";
             font-family: fontelo;
             padding-left: 10px;
             font-size: 20px;
           }
         }
-        .tarikh{
+        .tarikh {
           font-size: 10px;
           color: #333;
         }
-        h6{
+        h6 {
           font-weight: 100;
           font-size: medium;
         }
