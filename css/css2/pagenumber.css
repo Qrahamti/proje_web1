@@ -1,11 +1,12 @@
 .page_number {
-  width: 1320px;
+  width: 1345px;
   height: fit-content;
   background-color: #eeeeee;
   display: flex;
   flex-flow: column wrap;
   justify-content: start;
-  align-items: last baseline;
+  padding: 0px 325px;
+ 
 
   .numbers {
     width: 990px;
