@@ -123,11 +123,12 @@
           &:hover {
             background-color: darkblue;
           }
-          span {
+          a {
             font-family: shabnam;
             font-size: 15px;
             color: whitesmoke;
             transition: 100ms;
+            text-decoration: none;
           }
         }
       }
